@@ -3,5 +3,5 @@ uvicorn
 pydantic
 python-multipart
 Pillow
-tensorflow==2.15.0
+tensorflow==2.17.0
 python-jose
