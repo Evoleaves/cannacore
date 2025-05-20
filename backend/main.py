@@ -6,6 +6,4 @@ app = FastAPI(title="Cannacore API")
 
 # Montamos la app de autenticación en la raíz
 app.mount("/", auth_app)
-@app.get("/")
-def root():
-    return {"message": "Cannacore API funcionando correctamente"}
+
